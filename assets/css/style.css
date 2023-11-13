@@ -133,6 +133,9 @@ body {
   min-height: 100%;
   width: 100%;
   background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header .inner-nav #menu-collapsed .nav-wrap {
   display: flex;
@@ -243,6 +246,10 @@ body {
 .cont-card .c-body {
   border: 1px solid #e7e8e3;
   padding: 10px;
+}
+.cont-card .c-body .text-small {
+  font-size: 12px;
+  line-height: 18px;
 }
 
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */
