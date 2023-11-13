@@ -1,0 +1,27 @@
+.text-small {
+    font-size: 12px;
+    color: #0f0f0f;
+    font-weight: 500;
+
+    &.blue {
+        color: #3399cc;
+    }
+}
+
+.text-normal {
+    font-size: 14px;
+    color: #0f0f0f;
+    font-weight: 500;
+    line-height: 20px;
+
+    &.blue {
+        color: #3399cc;
+    }
+}
+
+.link-black {
+    display: block;
+    font-size: 12px;
+    color: #0f0f0f;
+    font-weight: 500;
+}

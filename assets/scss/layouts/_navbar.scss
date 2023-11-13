@@ -1,0 +1,122 @@
+.header {
+    .header-top {
+        background: #18a6d6;
+        padding: 3px 0;
+
+        .input-group {
+
+            .input-field {
+                border-radius: 0;
+                font-size: 12px;
+                background-color: rgb(21, 138, 178);
+                color: #fff;
+                border: 0;
+
+                &::placeholder {
+                    color: #ffffffbe;
+                }
+            }
+
+            .btn-submit {
+                border-radius: 0;
+                border: none;
+                background-color: #000000;
+                font-family: 'Myriad_Font';
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+
+    .inner-nav {
+        background: #0d0d0d;
+
+        .navbar-brand {
+            display: inline-block;
+
+            @media(max-width: 767px) {
+                max-width: 200px;
+            }
+        }
+
+        .user-info {
+            background: #272626;
+            padding: 10px;
+            min-width: 345px;
+
+            .custom-w-big {
+                width: 68%;
+            }
+
+            .custom-w-small {
+                width: 32%;
+            }
+
+            .c-input {
+                background: #0d0d0d;
+                border-radius: 0;
+                border: 0;
+                color: #fff;
+
+                &::placeholder {
+                    color: #fdfdfdc2;
+                }
+            }
+
+            .img-wrap {
+                min-height: 100%;
+                width: 100%;
+                background: #0d0d0d;
+            }
+        }
+
+        #menu-collapsed {
+
+            .nav-wrap {
+                display: flex;
+                align-items: center;
+
+                .nav-link {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #fff;
+                    text-transform: uppercase;
+                    padding: 12px 20px;
+
+                    &:hover {
+                        background: #18a6d6;
+                    }
+
+                    &.active {
+                        background: #18a6d6;
+                    }
+
+                    @media(max-width: 1199px) {
+                        padding: 12px 18px;
+                    }
+                }
+
+                @media(max-width: 991px) {
+                    flex-direction: column;
+                    align-items: start;
+                    width: 100%;
+
+                    .nav-item {
+                        width: 100%;
+                    }
+
+                    .nav-link {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+            }
+
+            &.hide {
+                @media(max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

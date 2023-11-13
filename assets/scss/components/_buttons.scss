@@ -1,0 +1,12 @@
+.btn-main {
+    font-size: 12px;
+    background: #18a6d6;
+    color: #ffffff;
+    border-radius: 0;
+
+    &:hover {
+        color: #ffffff;
+        background: #18a6d6;
+        border-radius: 3px;
+    }
+}
