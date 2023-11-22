@@ -108,7 +108,7 @@ body {
 .header .inner-nav .user-info {
   background: #272626;
   padding: 10px;
-  min-width: 345px;
+  min-width: 335px;
 }
 .header .inner-nav .user-info .custom-w-big {
   width: 68%;
@@ -185,6 +185,7 @@ body {
 }
 .footer .footer-top {
   background: #18a6d6;
+  padding: 5px;
 }
 .footer .footer-top .link-wrapper {
   padding-top: 10px;
